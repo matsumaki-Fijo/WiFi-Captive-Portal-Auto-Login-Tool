@@ -21,8 +21,6 @@ python -m pip install requests
 ### 1. Download the script
 Download `wifi_autologin.py` to your system.
 
----
-
 ### 2. Add your credentials
 Open the script and edit:
 
@@ -30,8 +28,6 @@ Open the script and edit:
 USERNAME = "your_username"
 PASSWORD = "your_password"
 ```
-
----
 
 ### 3. Create a one-click launcher (.bat file)
 
@@ -50,10 +46,10 @@ Paste this inside it:
 
 Replace `YourUsername` with your actual Windows username if needed.
 This is basically 
+```
 @echo off
 "location of your python.exe file" "location of wifi_autologin.py file"
-
----
+```
 
 ### 4. Run the tool
 
@@ -61,7 +57,6 @@ This is basically
 2. Double-click `wifi_login.bat`  
 3. You will be automatically logged in  
 
----
 
 ## How It Works
 The script sends an HTTP POST request directly to the WiFi login portal with the user's credentials, bypassing the need for browser-based login.
