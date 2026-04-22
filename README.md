@@ -48,7 +48,10 @@ Paste this inside it:
 "C:\Users\YourUsername\AppData\Local\Python\bin\python.exe" "%USERPROFILE%\Desktop\wifi_autologin.py"
 ```
 
-⚠ Replace `YourUsername` with your actual Windows username if needed.
+Replace `YourUsername` with your actual Windows username if needed.
+This is basically 
+@echo off
+"location of your python.exe file" "location of wifi_autologin.py file"
 
 ---
 
