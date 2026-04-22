@@ -59,9 +59,4 @@ This is basically
 
 
 ## How It Works
-The script sends an HTTP POST request directly to the WiFi login portal with the user's credentials, bypassing the need for browser-based login.
-
-
-## Notes
-- This tool is intended for personal use on authorized networks only  
-- Do not share your credentials publicly  
+The script sends an HTTP POST request directly to the WiFi login portal with the user's credentials, bypassing the need for browser-based login. 
